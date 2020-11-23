@@ -1,0 +1,15 @@
+
+Flashing commands
+-----------------
+
+make unlock
+make flash
+make clear_eeprom
+
+Find serial ports
+-----------------
+
+dmesg | grep tty
+
+sudo python3 control.py /dev/ttyUSB0
+
